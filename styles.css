@@ -2,8 +2,10 @@
     position: absolute;
     width: 560px;
     height: 300px;
-    border: solid black 1px;
+    border: solid greenyellow 1px;
     margin-top: 80px;
+    background-image: url("court.JPG");
+    background-size: contain;
 
 }
 
@@ -11,21 +13,32 @@
     position: absolute;
     width: 100px;
     height: 20px;
-    background-color: blue;
+    background-image: url("brick.jpg");
+    background-size: cover;
 }
 
 .user{
     position: absolute;
     width: 100px;
     height: 20px;
-    background-color: purple;
+    background-image: url("bat.png");
+    background-size: cover;
+
 }
 
 .ball{
     position: absolute;
     width: 20px;
     height: 20px;
-    border-radius: 10px;
-    background-color: red;
+    background-image: url("ball.png");
+    background-size: cover;
+}
 
+body{
+    background-image: url("Tennis.jpg");
+    background-size: cover;
+}
+
+#score{
+color: greenyellow;
 }
